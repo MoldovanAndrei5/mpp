@@ -1,0 +1,7 @@
+run server: npx tsx route.ts
+run app: npm run dev
+
+reset database: npx prisma migrate reset
+seed.ts for cars, seed-test for large population
+
+run jmeter.bat from here: C:\Jmeter\apache-jmeter-5.6.3\bin
