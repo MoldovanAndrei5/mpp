@@ -10,7 +10,7 @@
     "test": "vitest --coverage"
   },
   "prisma": {
-    "seed": "ts-node prisma/seed-test.ts"
+    "seed": "ts-node prisma/seed.ts"
   },
   "dependencies": {
     "@faker-js/faker": "^9.7.0",

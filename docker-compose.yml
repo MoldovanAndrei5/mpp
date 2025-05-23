@@ -9,8 +9,6 @@ services:
       - DATABASE_URL=postgresql://postgres:admin@db:5432/car_dealer
     depends_on:
       - db
-    volumes:
-      - .:/app
 
   frontend:
     build:
